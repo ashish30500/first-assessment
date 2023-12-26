@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;700&display=swap');
+*{
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Inter', sans-serif;
+    margin:0%;
+}
+body{
+    width:100vw;
+    height:890px;
+}
+
+header{
+    padding: 83px 136px;
+    box-sizing: border-box;
+    height:592px;    
+    background-color:#FFCD9E;  
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#heading{    
+    width: 562px;
+    height: 108px;
+    font-weight:700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left; 
+    color:#282828 ;
+}
+
+#para{
+    width: 493px;
+    height: 81px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#484848;
+}
+
+#para2{
+    width: 227px;
+    height:81px;
+    font-weight:600;
+    font-size:20px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #282828;
+}
+
+input{
+    width:344px;
+    height:64px;
+    border-radius: 8px;
+    border:4px solid black;
+    background-color: white;
+    font-size: 20px;
+    line-height:32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+button{
+    width:216px;
+    height:64px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    background-color: #282828;
+    color:white;
+}
+
+#para3{
+    width:344px;
+    height:61px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color:white;
+}
+
+.vector{
+    width:575px;
+    height:575px;
+    position: absolute;
+    top: 20px;
+    right:5vw;
+}
+
+footer{
+    height:298px;  
+    box-sizing: border-box;
+    padding:62px 191px;
+    background-color:#282828;
+    display:flex;
+    justify-content: space-between;    
+    
+}
+.lower_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.lower_right{
+    display: flex;
+    justify-items: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.foot{
+    height:36px;
+    font-weight:200;
+    font-size:20px;
+    line-height:32px;
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
